@@ -1,4 +1,3 @@
-```markdown
 # Glucose Monitoring System
 
 ## Overview
@@ -15,32 +14,32 @@ This project is a Django-based application designed to facilitate the monitoring
 
 1. **Clone the Repository**
 
-   ```
-   git clone [<repository-url>](https://github.com/ibrahimnasser94/una-glucose.git)
+   ```sh
+   git clone https://github.com/ibrahimnasser94/una-glucose.git
    ```
 
 2. **Set Up a Virtual Environment**
 
-   ```
+   ```sh
    python -m venv django-env
    source django-env/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
 
 3. **Install Dependencies**
 
-   ```
+   ```sh
    pip install -r requirements.txt
    ```
 
 4. **Run Migrations**
 
-   ```
+   ```sh
    python manage.py migrate
    ```
 
 5. **Start the Development Server**
 
-   ```
+   ```sh
    python manage.py runserver
    ```
 
@@ -50,7 +49,7 @@ This project is a Django-based application designed to facilitate the monitoring
 
 This project includes a comprehensive suite of tests to ensure the reliability and integrity of the glucose monitoring system. To run the tests:
 
-```
+```sh
 python manage.py test
 ```
 
@@ -61,4 +60,3 @@ Contributions are welcome! Please fork the repository, make your changes, and su
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
-```
