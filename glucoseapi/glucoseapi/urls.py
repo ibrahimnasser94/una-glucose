@@ -21,6 +21,7 @@ from glucose import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/levels/', views.get_levels_by_user_id, name='get_levels_by_user_id'),
-    path('api/v1/levels/<int:id>', views.get_level_by_id, name='get_level_by_id')
+    path('api/v1/levels/<int:id>', views.get_level_by_id, name='get_level_by_id'),
+    path('api/v1/levels/create', views.create_levels, name='create_levels')
 
 ]

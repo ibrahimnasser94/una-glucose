@@ -2,6 +2,8 @@ def get_field_from_verbose(meta, verbose_name):
     """
     Retrieves the name of a field from the given model's meta information based on its verbose name.
 
+    Source: https://stackoverflow.com/questions/56283155/how-to-access-a-field-name-in-django-model-via-the-verbose-name-or-column-name
+
     Args:
         meta (django.db.models.options.Options): The meta information of the model.
         verbose_name (str): The verbose name of the field.
